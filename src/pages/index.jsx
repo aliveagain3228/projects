@@ -10,11 +10,11 @@ export default () => {
         </h1>
 
         <div className="top-actions" style={{ display: 'flex', flexDirection: 'column', gap: '15px', alignItems: 'flex-start' }}>
-          <Button href="/mainCalculator.html">Рассчитать</Button>
+          <a href="/mainCalculator.html" className="btn">Рассчитать</a>
 
-          <Button href="/constructor.html ">
+          <a href="/constructor.html" className="btn">
             + Создать новый рецепт
-          </Button>
+          </a>
         </div>
 
         <p id="recipe-counter" style={{marginTop: '40px', marginBottom: '10px' }}></p>
