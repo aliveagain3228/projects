@@ -10,9 +10,9 @@ export default () => {
         </h1>
 
         <div className="top-actions" style={{ display: 'flex', flexDirection: 'column', gap: '15px', alignItems: 'flex-start' }}>
-          <a href="/mainCalculator.html" className="btn">Рассчитать</a>
+          <a href="mainCalculator.html" className="btn">Рассчитать</a>
 
-          <a href="/constructor.html" className="btn">
+          <a href="constructor.html" className="btn">
             + Создать новый рецепт
           </a>
         </div>
