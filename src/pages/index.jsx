@@ -10,9 +10,9 @@ export default () => {
         </h1>
 
         <div className="top-actions" style={{ display: 'flex', flexDirection: 'column', gap: '15px', alignItems: 'flex-start' }}>
-          <Button href="/mainCalculator">Рассчитать</Button>
+          <Button href="/mainCalculator.html">Рассчитать</Button>
 
-          <Button href="/constructor">
+          <Button href="/constructor.html ">
             + Создать новый рецепт
           </Button>
         </div>
@@ -88,7 +88,7 @@ export default () => {
                 
                 recipeCard.onclick = () => {
                   localStorage.setItem('editRecipeId', JSON.stringify(recipe.id))
-                  window.location.href = '/constructor'
+                  window.location.href = '/constructor.html'
                 }
               })
             }
