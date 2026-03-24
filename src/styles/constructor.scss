@@ -1,0 +1,53 @@
+@use '@/styles/helpers/media' as *;
+
+.add-btn {
+  background: var(--color-accent);
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: var(--border-radius-xxxs);
+  margin: 10px 50px;
+}
+
+.calculator-container {
+  max-width: 800px;
+  margin: 300px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px 10px;
+}
+
+#ing-list {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: var(--border-radius-xxs);
+
+
+    button {
+      background: var(--color-accent);
+      border: none;
+      color: var(--color-white);
+      cursor: pointer;
+      padding: 5px 10px;
+      border-radius: var(--border-radius-xxxs);
+      margin-left: 10px;
+
+      @include hover {
+        background: #ff1a1a1a;
+      }
+    }
+  }
+}
+
