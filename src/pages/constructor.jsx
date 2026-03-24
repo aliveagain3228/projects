@@ -1,7 +1,7 @@
 import Button from '@/components/Button/index.js'
 import '@/styles/constructor.scss'
 import '@/styles/ui-elements.scss'
-import logicRaw from './logic.js?raw';
+import logicRaw from '../assets/logic.js?raw';
 
 
 export default function constructorRecipe () {
